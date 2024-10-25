@@ -1,0 +1,34 @@
+@import "./reset.scss";
+@import "./variables.scss";
+@import "./themes.scss";
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: "NEXON Lv2 Gothic";
+
+  header {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    nav {
+      margin: auto 0 auto 10px;
+
+      ul {
+        list-style: none;
+
+        li {
+          label {
+            position: relative;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
